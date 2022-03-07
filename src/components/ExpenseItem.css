@@ -1,0 +1,32 @@
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 10px 12px rgba(19, 17, 17, 0.25);
+    padding: 3rem;
+    margin: 5rem;
+    border-radius: 13px;
+    background: hsla(211, 66%, 87%, 1);
+    background: linear-gradient( 90deg, hsla(211, 66%, 87%, 1) 0%, hsla(348, 67%, 88%, 1) 50%, hsla(272, 26%, 72%, 1) 100%);
+    background: -moz-linear-gradient( 90deg, hsla(211, 66%, 87%, 1) 0%, hsla(348, 67%, 88%, 1) 50%, hsla(272, 26%, 72%, 1) 100%);
+    background: -webkit-linear-gradient( 90deg, hsla(211, 66%, 87%, 1) 0%, hsla(348, 67%, 88%, 1) 50%, hsla(272, 26%, 72%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C9DEF4", endColorstr="#F5CCD4", GradientType=1);
+}
+
+.expense-item-description {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.1rem;
+    align-items: center;
+    font-weight: bolder;
+    flex-flow: column;
+    font-size: 1.3rem;
+}
+
+.expense-item-price {
+    font-size: 1.3rem;
+}
+
+.expense-date {
+    font-weight: bold;
+}
